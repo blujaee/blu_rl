@@ -1,11 +1,9 @@
 # BLU_RL
 
-This project is a simple URL shortener. 
-When finished, it should take any URL inputted by a user using a HTML form and change it into a shorter URL using a hash algorithm, then return the shorter URL to the user, storing all of the information in a MySQL database.
+## This project is a simple URL shortener. When finished, it should take any URL inputted by a user using a HTML form and change it into a shorter URL using a hash algorithm, then return the shorter URL to the user, storing all of the information in a MySQL database.
 ---
-Date Started: 04/19/2023
-
-Date Finished:
+### Date Started: 04/19/2023
+### Date Finished:
 ---
 ## Tools Used
 - Python
