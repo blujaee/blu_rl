@@ -1,4 +1,4 @@
-# BLU_RL
+# blURL
 
 ## This project is a simple URL shortener. When finished, it should take any URL inputted by a user using a HTML form and change it into a shorter URL using a hash algorithm, then return the shorter URL to the user, storing all of the information in a MySQL database.
 ---
