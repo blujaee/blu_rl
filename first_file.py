@@ -2,6 +2,8 @@ import mysql.connector
 
 import hashlib
 
+import os
+
 from flask import Flask, render_template, request
 
 from datetime import datetime
@@ -11,10 +13,10 @@ import random
 import config
 
 blurl = mysql.connector.connect(
-    host=config.DB_HOST,
-    user=config.DB_USER,
-    password=config.DB_PASSWORD,
-    database=config.DB_DATABASE
+    host=os.environ.get('DB_HOST'),
+    user=os.environ.get('DB_USER'),
+    password=os.environ.get('DB_PASSWORD'),
+    database=os.environ.get('DB_DATABASE')
 )
 
 mycursor = blurl.cursor()
